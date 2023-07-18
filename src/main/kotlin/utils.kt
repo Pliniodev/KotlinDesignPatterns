@@ -1,3 +1,1 @@
-fun divider(){
-    println("-".repeat(30))
-}
+fun divider(){ println("-".repeat(30)) }

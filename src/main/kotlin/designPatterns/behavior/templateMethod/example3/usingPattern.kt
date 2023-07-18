@@ -8,6 +8,7 @@ import divider
  * Each one created with its particular rules.
  */
 private fun main() {
+    println("Template method")
     val modernHouseBuilder = ModernHouseBuilder()
     val modernHouse = modernHouseBuilder.buildHouse()
     println("Modern House:")

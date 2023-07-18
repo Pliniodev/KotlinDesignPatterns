@@ -1,5 +1,10 @@
 package designPatterns.behavior.templateMethod.example1
 
+/**
+ * The method prepare() is the template method because it follows a template or pattern for defining an algorithm.
+ * If you need, you can do some private methods to encapsulate common behaviors.
+ * And the abstract methods will be implemented in your concrete classes.
+ */
 abstract class AbstractDrink {
     fun prepare() {
         boilWater()
